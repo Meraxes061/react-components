@@ -1,0 +1,15 @@
+.dropdown__toggle {
+    background-color: #FF9800;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    cursor: pointer;
+
+    span:first-child {
+        margin-right: auto;
+    }
+
+    i {
+        transition: transform .15s;
+    }
+}

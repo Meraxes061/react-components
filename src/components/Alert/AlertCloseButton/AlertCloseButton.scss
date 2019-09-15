@@ -1,0 +1,15 @@
+.alert__close__button {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    display: flex;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+
+    i {
+        color: white;
+        font-size: 36px;
+    }
+}

@@ -1,0 +1,13 @@
+.dropdown__content {
+    background-color: #c17709;
+    position: absolute;
+    display: none;
+    width: 100%;
+    display: none;
+    font-size: .85em;
+
+    a {
+        all: inherit;
+        padding: 0;
+    }
+}

@@ -1,0 +1,17 @@
+.dropdown__container {
+    position: relative;
+    user-select: none;
+    min-width: 200px;
+    max-width: 4000px;
+
+    &.active {
+        .dropdown__toggle {
+            i {
+                transform: rotate(180deg)
+            }
+        }
+        .dropdown__content {
+            display: block;
+        }
+    }
+}

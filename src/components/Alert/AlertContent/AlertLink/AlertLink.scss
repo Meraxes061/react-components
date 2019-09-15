@@ -1,0 +1,9 @@
+.alert__link {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

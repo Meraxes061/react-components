@@ -1,0 +1,19 @@
+.alert {
+    background-color: #c17709;
+    padding: 36px;
+    width: 400px;
+    border-radius: 4px;
+    user-select: none;
+    position: relative;
+    transform: translateY(16px);
+    visibility: hidden;
+    opacity: 0;
+    display: block;
+
+    &.active {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+        transition: all .5s;
+    }
+}
